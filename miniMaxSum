@@ -35,7 +35,9 @@ function miniMaxSum(arr) {
         }
         totalSum += arr[i];
     }
-    return (totalSum - max) + " " + (totalSum - min);
+    console.log((totalSum - max) + " " + (totalSum - min));
+    return;
+    //return (totalSum - max) + " " + (totalSum - min);
 }
 
 function main() {
