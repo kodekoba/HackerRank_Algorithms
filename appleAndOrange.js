@@ -22,7 +22,6 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-// Complete the countApplesAndOranges function below.
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
     let aCount = 0;
     let oCount = 0;
